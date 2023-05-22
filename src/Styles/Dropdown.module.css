@@ -1,0 +1,7 @@
+.select {
+  padding: 10px;
+  border-radius: 6px;
+  width: 40%;
+  margin: 15px;
+  border: solid rgba(128, 128, 128, 0.308) 2px;
+}

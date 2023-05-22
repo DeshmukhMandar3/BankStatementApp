@@ -1,0 +1,14 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(46, 51, 125);
+  color: white;
+}
+
+.navbar p:first-child {
+  margin-left: 20px;
+}
+
+.navbar p:nth-child(2) {
+  margin-left: 34%;
+}

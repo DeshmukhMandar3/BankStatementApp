@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "company": "Swiggy",
+      "date": "2019-01-05",
+      "type": "debit",
+      "amout": 2000,
+      "image": ""
+    },
+    {
+      "company": "Amazon cashback",
+      "date": "2019-01-10",
+      "type": "credit",
+      "amout": 500,
+      "image": ""
+    },
+    {
+      "company": "Chai Point",
+      "date": "2019-01-16",
+      "type": "debit",
+      "amout": 200,
+      "image": ""
+    },
+    {
+      "company": "Flipkart",
+      "date": "2019-01-29",
+      "type": "debit",
+      "amout": 1000,
+      "image": ""
+    }
+  ]
+}

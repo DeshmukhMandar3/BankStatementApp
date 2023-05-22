@@ -1,0 +1,30 @@
+.summary {
+  --primary: 10px;
+  --secondary: 6px;
+  background-color: rgb(240, 238, 244);
+  height: 100vh;
+  /* to be delete later */
+}
+
+.select_month_year {
+  margin: 20px;
+  border-radius: var(--primary);
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.select_month_year div:first-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.select_month_year button {
+  border-radius: var(--secondary);
+  padding: 10px;
+  width: 92%;
+  margin: 5px 0px 15px 0px;
+  border: 0px;
+  background-color: rgb(46, 51, 125);
+  color: white;
+}

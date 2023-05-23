@@ -3,56 +3,56 @@
     "company": "Swiggy",
     "date": "2019-01-05",
     "type": "debit",
-    "amout": 2000,
+    "amount": 2000,
     "image": ""
   },
   {
     "company": "Amazon cashback",
     "date": "2019-01-10",
     "type": "credit",
-    "amout": 500,
+    "amount": 500,
     "image": ""
   },
   {
     "company": "Chai Point",
     "date": "2019-01-16",
     "type": "debit",
-    "amout": 200,
+    "amount": 200,
     "image": ""
   },
   {
     "company": "Flipkart",
     "date": "2019-01-29",
     "type": "debit",
-    "amout": 1000,
+    "amount": 1000,
     "image": ""
   },
   {
     "company": "Myntra",
     "date": "2019-02-01",
     "type": "debit",
-    "amout": 3000,
+    "amount": 3000,
     "image": ""
   },
   {
     "company": "Lint",
     "date": "2019-02-25",
     "type": "debit",
-    "amout": 5000,
+    "amount": 5000,
     "image": ""
   },
   {
     "company": "Flipkart",
     "date": "2019-03-03",
     "type": "credit",
-    "amout": 200,
+    "amount": 200,
     "image": ""
   },
   {
     "company": "HP",
     "date": "2019-03-26",
     "type": "debit",
-    "amout": 1500,
+    "amount": 1500,
     "image": ""
   }
 ]

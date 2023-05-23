@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import data from "../db.json";
 import Style from "../Styles/SummaryCard.module.css";
+import { useNavigate } from "react-router-dom";
 
 const SummaryCard = ({ year, month }) => {
   let date1 = "";
@@ -9,6 +10,8 @@ const SummaryCard = ({ year, month }) => {
   let cred = 0;
   let minDeb = Infinity;
   let showDate = "";
+
+  const navigate = useNavigate();
 
   switch (month) {
     case "January": {
@@ -106,8 +109,8 @@ const SummaryCard = ({ year, month }) => {
 
   return (
     <div className={Style.summaryCard}>
-      <h3>{showDate}</h3>
-      <h3>Summary</h3>
+      <h4>{showDate}</h4>
+      <h4>Summary</h4>
       <div>
         <p>Opening Balance</p> <p>₹0.00</p>
       </div>
@@ -132,6 +135,13 @@ const SummaryCard = ({ year, month }) => {
         <p>MIN. AMOUNT DUE</p>{" "}
         <p>{minDeb == Infinity ? "₹0.00" : `₹${minDeb}.00`}</p>
       </div>
+      <h4
+        onClick={() => {
+          navigate(`/Statement/${date1}-${date2}`);
+        }}
+      >
+        View Statement Transactions {`>`}
+      </h4>
     </div>
   );
 };

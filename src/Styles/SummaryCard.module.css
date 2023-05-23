@@ -1,24 +1,63 @@
 .summaryCard {
-  width: 80%;
-  border: solid gray;
-  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.summaryCard > h3 {
+.summaryCard > h4 {
   text-align: left;
+  margin: 15px;
+}
+
+.summaryCard > div > h3 {
+  font-size: 12px;
+}
+
+.summaryCard > div > span {
+  background-color: rgb(240, 238, 244);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.summaryCard h4:first-child {
+  font-weight: normal;
 }
 
 .summaryCard > div {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin: 5px 15px;
 }
 
 .summaryCard > div > p {
-  width: 33.33%;
+  width: 40%;
   text-align: left;
   font-size: 12px;
 }
 
 .summaryCard > div > p:last-child {
   text-align: right;
+}
+
+.summaryCard > div:last-child {
+  margin-top: 0px;
+  line-height: 0px;
+  margin-bottom: 20px;
+}
+
+.summaryCard > div:nth-last-child(2) {
+  margin-bottom: 0px;
+  line-height: 0px;
+}
+
+.summaryCard > h4:last-child {
+  font-weight: 600;
+  color: rgb(46, 51, 125);
+  font-size: 15px;
 }

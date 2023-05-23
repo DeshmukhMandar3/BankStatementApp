@@ -23,18 +23,27 @@ const Summary = () => {
 
   const [year, setYear] = React.useState("2019");
   const [month, setMonth] = React.useState("January");
+  const [altYear, setAltYear] = React.useState("2019");
+  const [altMonth, setAltMonth] = React.useState("January");
 
   return (
     <div className={Style.summary}>
-      <Navbar text="Summary" />
+      <Navbar text="My Card - Summary" />
       <div className={Style.select_month_year}>
         <div>
           <Dropdown options={Month} func={setMonth} />
           <Dropdown options={Year} func={setYear} />
         </div>
-        <button>View Statement Summary</button>
+        <button
+          onClick={() => {
+            setAltMonth(month);
+            setAltYear(year);
+          }}
+        >
+          View Statement Summary
+        </button>
       </div>
-      <SummaryCard year={year} month={month} />
+      <SummaryCard year={altYear} month={altMonth} />
     </div>
   );
 };

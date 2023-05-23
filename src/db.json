@@ -4,55 +4,55 @@
     "date": "2019-01-05",
     "type": "debit",
     "amount": 2000,
-    "image": ""
+    "image": "https://images.yourstory.com/cs/images/companies/logosC141575978425306png"
   },
   {
     "company": "Amazon cashback",
     "date": "2019-01-10",
     "type": "credit",
     "amount": 500,
-    "image": ""
+    "image": "https://s3-symbol-logo.tradingview.com/amazon--600.png"
   },
   {
     "company": "Chai Point",
     "date": "2019-01-16",
     "type": "debit",
     "amount": 200,
-    "image": ""
+    "image": "https://naidupanjabi.com/img/WebsiteImages/Madeforchai/01.jpg"
   },
   {
     "company": "Flipkart",
     "date": "2019-01-29",
     "type": "debit",
     "amount": 1000,
-    "image": ""
+    "image": "https://assets.entrepreneur.com/content/3x2/2000/20180511063849-flipkart-logo-detail-icon.jpeg"
   },
   {
     "company": "Myntra",
     "date": "2019-02-01",
     "type": "debit",
     "amount": 3000,
-    "image": ""
+    "image": "https://uploads-ssl.webflow.com/614d610a3dd0725153e51ded/6156cbfd2f7d9324d20b6640_Myntra.png"
   },
   {
-    "company": "Lint",
+    "company": "Ajio",
     "date": "2019-02-25",
     "type": "debit",
     "amount": 5000,
-    "image": ""
+    "image": "https://yt3.googleusercontent.com/GCxx7WOY2ZpzNXKRxsgAqUvrj2uWKZapMmM7OY70S9p7bPUArBmWR-luasbvKRlxCICF0tspAFA=s900-c-k-c0x00ffffff-no-rj"
   },
   {
     "company": "Flipkart",
     "date": "2019-03-03",
     "type": "credit",
     "amount": 200,
-    "image": ""
+    "image": "https://assets.entrepreneur.com/content/3x2/2000/20180511063849-flipkart-logo-detail-icon.jpeg"
   },
   {
     "company": "HP",
     "date": "2019-03-26",
     "type": "debit",
     "amount": 1500,
-    "image": ""
+    "image": "https://vectorseek.com/wp-content/uploads/2022/02/Hindustan-Petroleum-Logo-Vector-730x730.jpg"
   }
 ]

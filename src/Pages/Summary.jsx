@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 import Dropdown from "../Components/Dropdown";
 import Style from "../Styles/Summary.module.css";
+import SummaryCard from "../Components/SummaryCard";
 
 const Summary = () => {
   let Year = [2019, 2020, 2021, 2022];
@@ -11,7 +12,7 @@ const Summary = () => {
     "March",
     "April",
     "May",
-    "Jun",
+    "June",
     "July",
     "August",
     "September",
@@ -20,8 +21,8 @@ const Summary = () => {
     "December",
   ];
 
-  const [year, setYear] = React.useState("");
-  const [month, setMonth] = React.useState("");
+  const [year, setYear] = React.useState("2019");
+  const [month, setMonth] = React.useState("January");
 
   return (
     <div className={Style.summary}>
@@ -33,6 +34,7 @@ const Summary = () => {
         </div>
         <button>View Statement Summary</button>
       </div>
+      <SummaryCard year={year} month={month} />
     </div>
   );
 };

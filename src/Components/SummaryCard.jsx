@@ -137,7 +137,7 @@ const SummaryCard = ({ year, month }) => {
       </div>
       <h4
         onClick={() => {
-          navigate(`/Statement/${date1}_${date2}_${showDate}`);
+          navigate(`/Statement/${date1}_${date2}`);
         }}
       >
         View Statement Transactions {`>`}

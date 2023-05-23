@@ -6,17 +6,23 @@ import Style from "../Styles/Statement.module.css";
 
 const Statement = () => {
   const { date } = useParams();
-  const [date1, date2, showDate] = date.split("_");
+  const [date1, date2] = date.split("_");
   let filteredData = data.filter((el) => {
     return Date.parse(el.date) >= date1 && Date.parse(el.date) <= date2;
   });
-  console.log(date);
+
+  let startMonth = new Date(+date1).toLocaleDateString("en-us", {
+    month: "short",
+  });
+  let endMonth = new Date(+date2).toLocaleDateString("en-us", {
+    month: "short",
+  });
 
   return (
     <div className={Style.statement}>
       <Navbar text="My Card - Statement" />
       <div>
-        <h4>{showDate}</h4>
+        <h4>{`15 ${startMonth} - 14 ${endMonth}`}</h4>
         {filteredData.map((el) => {
           return (
             <div key={el.date} className={Style.card}>

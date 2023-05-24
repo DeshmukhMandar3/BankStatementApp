@@ -43,7 +43,13 @@
 .card > div > div:last-child > h4 {
   margin-bottom: 5px;
   text-align: left;
+  height: 20px;
+  width: 105px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
+
 .card > div > div:last-child > p {
   margin-top: 5px;
   text-align: left;

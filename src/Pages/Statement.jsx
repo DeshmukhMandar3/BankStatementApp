@@ -40,7 +40,9 @@ const Statement = () => {
                 </div>
               </div>
               <p>
-                {el.type === "credit" ? `+₹${el.amount}.00` : `-₹${el.amount}`}
+                {el.type === "credit"
+                  ? `+₹${el.amount}.00`
+                  : `-₹${el.amount}.00`}
               </p>
             </div>
           );

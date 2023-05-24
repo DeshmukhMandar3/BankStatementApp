@@ -14,7 +14,7 @@
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
-.select_month_year div:first-child {
+.select_month_year > div:first-child {
   display: flex;
   justify-content: space-between;
 }
@@ -22,8 +22,8 @@
 .select_month_year button {
   border-radius: var(--secondary);
   padding: 10px;
-  width: 92%;
-  margin: 5px 0px 15px 0px;
+  width: 89%;
+  margin: 25px 0px 15px 0px;
   border: 0px;
   background-color: rgb(46, 51, 125);
   color: white;
